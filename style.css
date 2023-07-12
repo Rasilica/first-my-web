@@ -1,0 +1,142 @@
+/* 전체 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* 네비게이션 바 */
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 헤더 */
+  header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  header h1 {
+    color: #333;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  /* 섹션 */
+  section {
+    margin: 50px 0;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    list-style-type: none;
+  }
+  
+  section ul li {
+    margin-bottom: 20px;
+  }
+  
+  section ul li h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section ul li a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  section ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* 프로젝트 디테일 섹션 */
+  .project-detail {
+    margin: 50px 0;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  .project-detail h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .project-detail p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .project-detail a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .project-detail a:hover {
+    background-color: #555;
+  }
+  
